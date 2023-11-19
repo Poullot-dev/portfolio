@@ -1,0 +1,3 @@
+# Répertoire "Themes"
+
+Dans ce répertoire, on pourra ajouter des fichiers thématiques. Par exemple un thème pour la partie utilisateur et un autre pour la partie admin.

@@ -1,0 +1,3 @@
+# Répertoire "Components"
+
+Vous utiliserez ce dossier pour les éléments réutilisables et plus petits que les layouts comme les boutons, les inputs, les icônes…

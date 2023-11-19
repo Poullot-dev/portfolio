@@ -1,0 +1,3 @@
+# Répertoire "Vendors"
+
+Ici, vous allez pouvoir inclure des ressources tiers comme un fichier Bootstrap ou autre.
