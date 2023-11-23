@@ -1,0 +1,44 @@
+
+
+.header {
+    // background-color: indianred;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1rem;
+
+    &__infos {
+        // background-color: lime;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 0;
+
+        i {
+            font-size: 1rem;
+        }
+        &--texte {
+            margin-left: .4rem;
+            font-size: 1rem;
+        }
+
+    }
+
+    img {
+        width: 20%;
+        filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    }
+
+    &__contact {
+        font-size: .5rem;
+        font-weight: 400;
+    }
+
+    p {
+        margin-top: .5rem;
+    }
+}

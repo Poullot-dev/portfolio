@@ -1,0 +1,93 @@
+
+
+
+
+main {
+    // background-color: aqua;
+    // max-width: 30rem;
+    flex-grow: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(50, 50, 0, 0.2);
+
+}
+
+.entete-main {
+    // background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+
+    &__blocs {
+        // background-color: orangered;
+        display: flex;
+        width: 40%;
+        column-gap: .5rem;
+        margin: 2rem 0 .5rem;
+
+        &--center {
+            // background-color: mediumseagreen;
+            width: 10%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .diplome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        font-size: 1.5rem;
+    }
+
+    .fleche {
+        filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    }
+
+    .entete-main__blocs__fleche--rigth {
+        display: "";
+        // background-color: lightseagreen;
+        background-color: lightgrey;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+        min-width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: .5rem 0.5rem .5rem 3rem;
+    }
+
+    .entete-main__blocs__fleche--left {
+        // background-color: rgb(178, 32, 178);
+        background-color: lightgrey;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        min-width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: .5rem 2rem;
+    }
+
+}
+.legende {
+    // background-color: goldenrod;
+    text-align: center;
+    font-style: italic;
+    margin: .5rem 0 2rem;
+
+    .letter {
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}

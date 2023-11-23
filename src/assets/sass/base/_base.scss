@@ -1,0 +1,35 @@
+
+@use '../utils/vars';
+
+
+// a voir si necessaire car normalize installé
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: vars.$color-fond-dark;
+
+
+}
+
+.container {
+    background-color: vars.$color-fond-ligth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: burlywood;
+}
